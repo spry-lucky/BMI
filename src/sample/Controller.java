@@ -5,11 +5,11 @@ import javafx.scene.control.TextField;
 
 public class Controller {
 
-    public TextField theight;
-    public TextField tweight;
+    private TextField theight;
+    private TextField tweight;
 
-    public Label lbmi;
-    public Label lresult;
+    private Label lbmi;
+    private Label lresult;
 
     public void buttonclicked()
     {
